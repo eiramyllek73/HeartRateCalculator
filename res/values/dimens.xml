@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="targetHeartRateTitleTextSixe">20dp</dimen>
+    <dimen name="titlePadding">5dp</dimen>
+    <dimen name="radioButtonGroup">5dp</dimen>
+    <dimen name="radioGroupPadding">5dp</dimen>
+    <dimen name="ageInfoRowPadding">10dp</dimen>
+    <dimen name="calculateButtonRow">20dp</dimen>
+    <dimen name="titlePadding2">25dp</dimen>
+
+</resources>

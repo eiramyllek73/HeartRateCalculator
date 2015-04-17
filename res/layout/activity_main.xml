@@ -1,0 +1,173 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/heartRateAppTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/titleRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/targetHeartRateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/titlePadding2"
+            android:text="@string/targetHeartRateTextView"
+            android:textSize="@dimen/targetHeartRateTitleTextSixe"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/radioButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/radioGroupPadding"
+        android:paddingTop="20dp" >
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/medblue"
+            android:checked="false"
+            android:text="@string/maleRadioButtonText" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:buttonTint="@color/medpink"
+            android:checked="true"
+            android:text="@string/femaleRadioButtonText" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/ageInfoRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/ageInfoRowPadding"
+        android:paddingTop="30dp" >
+
+        <TextView
+            android:id="@+id/ageTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|start|left"
+            android:text="@string/ageTextView" />
+
+        <EditText
+            android:id="@+id/ageEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="true"
+            android:fitsSystemWindows="true"
+            android:gravity="right|center_horizontal|start"
+            android:inputType="number"
+            android:maxLength="@integer/abc_max_action_buttons"
+            android:text="@string/ageEditText"
+            android:textAllCaps="false" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/calculateButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/calculateButtonRow"
+        android:paddingTop="40dp" >
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="@color/purple"
+            android:text="@string/calculateButtonText"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/lowHeartRateRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/lowHeartRateTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lowHeartRateTextView" />
+
+        <EditText
+            android:id="@+id/lowHeartRateEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/lowHeartRateEditText" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/moderateHeartRateRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/moderateHeartRateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/moderateHeartRateEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/moderateHeartRateTextView" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/maxHeartRateRow"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/maxHeartRateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maxHeartRateText" />
+
+        <EditText
+            android:id="@+id/maxHeartRateEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/maxHeartRateEditText" />
+    </TableRow>
+
+</TableLayout>
