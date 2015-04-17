@@ -20,5 +20,12 @@
     <string name="moderateHeartRateTextView">0.0</string>
     <string name="maxHeartRateText">Maximum Heart Rate:</string>
     <string name="maxHeartRateEditText">0.0</string>
+    <string name="lowIntensityTextView">Low Intensity:</string>
+    <string name="lowIntensityText">0.0</string>
+    <string name="moderateIntensityTextView">Moderate Intensity:</string>
+    <string name="maxIntensityText">Maximum Intensity:</string>
+    <string name="maxIntensityTextEdit">0.0</string>
+    <string name="moderateIntensityTextViewText">Moderate Intensity:</string>
+    <string name="moderateIntensityText">0.0</string>
 
 </resources>

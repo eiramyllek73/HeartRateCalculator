@@ -1,3 +1,11 @@
+<!-- 
+PROGRAM NAME:  COMP1011-Assignment05
+PROGRAM DESCRIPTION:  Android Application - Heart Rate Calculator
+@author Kelly McAlpine 200260425
+@version 0.2 - Final Commit				
+Date last modified:  2015-04-16 
+-->
+
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/heartRateAppTableLayout"
@@ -114,18 +122,18 @@
         android:layout_weight="1" >
 
         <TextView
-            android:id="@+id/lowHeartRateTextview"
+            android:id="@+id/lowIntensityTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/lowHeartRateTextView" />
+            android:text="@string/lowIntensityTextView" />
 
         <EditText
-            android:id="@+id/lowHeartRateEditText"
+            android:id="@+id/lowIntensityEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="@string/lowHeartRateEditText" />
+            android:text="@string/lowIntensityText" />
     </TableRow>
 
     <TableRow
@@ -135,18 +143,18 @@
         android:layout_weight="1" >
 
         <TextView
-            android:id="@+id/moderateHeartRateTextView"
+            android:id="@+id/moderateIntensityTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/moderateIntensityTextViewText" />
 
         <EditText
-            android:id="@+id/moderateHeartRateEditText"
+            android:id="@+id/moderateIntensityEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="@string/moderateHeartRateTextView" />
+            android:text="@string/moderateIntensityText" />
     </TableRow>
 
     <TableRow
@@ -156,18 +164,18 @@
         android:layout_weight="1" >
 
         <TextView
-            android:id="@+id/maxHeartRateTextView"
+            android:id="@+id/maxIntensityTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/maxHeartRateText" />
+            android:text="@string/maxIntensityText" />
 
         <EditText
-            android:id="@+id/maxHeartRateEditText"
+            android:id="@+id/maxIntensityEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="@string/maxHeartRateEditText" />
+            android:text="@string/maxIntensityTextEdit" />
     </TableRow>
 
 </TableLayout>
